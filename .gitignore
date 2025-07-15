@@ -1,0 +1,83 @@
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Compiled files
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Build directories
+target/
+build/
+out/
+bin/
+dist/
+
+# Logs
+*.log
+log/
+logs/
+
+# Dependencies
+node_modules/
+vendor/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Environment files
+.env
+.env.local
+.env.*.local
+.env.development
+.env.test
+.env.production
+
+# Package files
+package-lock.json
+yarn.lock
+
+# Cache
+.cache/
+.npm/
+.gradle/
+
+# Testing
+coverage/
+.coverage
+.pytest_cache/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Temporary files
+*.swp
+*.swo
+*~
+tmp/
+temp/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+virtualenv/
+.virtualenv/
+.python-version
+pyvenv.cfg

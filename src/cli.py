@@ -18,10 +18,5 @@ def cli():
         "--mark-task", help="Пометить задачу как `⏳ В процессе...` или `✅ Выполнено!`"
     )
     parser.add_argument("--task-list", help="Вывести список задач.")
-    parser.add_argument(
-        "--update-task", help="Обновить задачу."
-    )
-    parser.add_argument(
-        "--remove-task", help="Удалить задачу из списка задач."
-    )
-    
+    parser.add_argument("--update-task", help="Обновить задачу.")
+    parser.add_argument("--remove-task", help="Удалить задачу из списка задач.")
